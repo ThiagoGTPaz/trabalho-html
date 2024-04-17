@@ -1,0 +1,37 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  text-align: center;
+}
+.equipe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.perfil {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.perfil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.perfil h2 {
+  margin: 5px 0;
+}
+
+.perfil p {
+  margin: 5px 0;
+}

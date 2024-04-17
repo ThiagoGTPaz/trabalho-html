@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.offer {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  display: flex;
+}
+.offer .img-container {
+  flex: 0 0 auto;
+}
+.offer img {
+  max-width: 200px;
+}
+.offer .text-container {
+  flex: 1 1 auto;
+}
+.offer h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+.offer p {
+  margin-top: 0;
+}
+.original-price {
+  color: #999;
+  text-decoration: line-through;
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+blockquote {
+  margin: 20px;
+  padding: 10px;
+  font-style: italic;
+}
+
+.testimonial {
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.testimonial img {
+  width: 100px;
+  margin-right: 10px;
+  float: left;
+}
+
+.testimonial p {
+  margin: 0;
+}

@@ -1,0 +1,38 @@
+details {
+  cursor: pointer;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+summary {
+  outline: none;
+  transition: transform 0.3s ease;
+}
+header {
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  color: aliceblue;
+}
+.header {
+  color: aliceblue;
+  text-shadow: 1px 1px 2px pink;
+  text-align: center;
+}
+summary::after {
+  content: "+";
+  margin-left: 5px;
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  content: "-";
+  transform: rotate(0deg);
+}
+div {
+  background-color: white;
+  width: 50%;
+}

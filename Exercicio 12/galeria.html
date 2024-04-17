@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria de Fotos</title>
+<link rel="stylesheet" href="stylesgaleria.css">
+</head>
+<body>
+  <h1>Galeria de Fotos</h1>
+  <div class="gallery">
+    <figure>
+      <img src="img/photo1.jpg" alt="Foto 1" class="thumbnail">
+    </figure>
+    <figure>
+      <img src="img/photo2.jpg" alt="Foto 2" class="thumbnail">
+    </figure>
+    <figure>
+      <img src="img/photo3.jpg" alt="foto 3" class="thumbnail">
+    </figure>
+    <figure>
+      <img src="img/photo4.jpg" alt="foto 4" class="thumbnail">
+    </figure>
+  </div>
+
+  <!-- Modal para visualização em tela cheia -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-image">
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
